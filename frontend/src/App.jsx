@@ -31,8 +31,9 @@ const App = () => (
       <AuthProvider>
         <MainLayout>
           <Routes>
-            <Route path={routes.mainPagePath()} 
-            element={(
+            <Route
+              path={routes.mainPagePath()} 
+              element={(
                 <PrivateRoute>
                   <ChatPage />
                 </PrivateRoute>

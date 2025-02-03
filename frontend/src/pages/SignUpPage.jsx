@@ -10,7 +10,7 @@ const SignUpPage = () => {
     <Container>
       <div className="card-body d-flex flex-column flex-md-row justify-content-around align-items-center p-5">
         <div>
-          <img  src={registrationImage} alt={t('image.signup')} className="img-fluid"/>
+          <img src={registrationImage} alt={t('image.signup')} className="img-fluid" />
         </div>
         <RegistrationForm />
       </div>
