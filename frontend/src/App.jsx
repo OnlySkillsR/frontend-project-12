@@ -32,7 +32,7 @@ const App = () => (
         <MainLayout>
           <Routes>
             <Route
-              path={routes.mainPagePath()} 
+              path={routes.mainPagePath()}
               element={(
                 <PrivateRoute>
                   <ChatPage />
